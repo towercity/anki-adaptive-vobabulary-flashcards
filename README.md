@@ -69,3 +69,25 @@ This back should be pretty familiar now--all the information from before--but th
 ### 4. Listening (Sentence)
 
 Front:
+
+![front of listening](img/listening.png)
+
+Pretty familiar, right? This card works exactly the same as the basic listening card, except it asks you to recognize the audio of a full sentence rather than a single word. So, it looks the same.
+
+If, though, you have an image associated with the sentence you're listening to, the card will look like this:
+
+Front:
+
+![front of listening](img/listening_sent.png)
+
+The image will show up large and in focus, which looks very nice when you turn the card over to the back:
+
+Back:
+
+![back of Listening (Sentence)](img/back_sent.png)
+
+It looks almost like a TV show with subtitles and translations underneath, with some extra information below that. I have the cards set up to display the associated Japanese vocab word and English definition, as well as tags and notes, but like all things Anki, you can change this.
+
+If you don't have an image, the back of the card looks like this:
+
+![back of Listening (Sentence)](img/back_sent_2.png)
