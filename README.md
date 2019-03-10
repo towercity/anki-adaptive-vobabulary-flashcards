@@ -48,4 +48,20 @@ Pretty straightforwardly, this card shows an English word and asks you to guess 
 
 Back:
 
-![back of J --> E](img/back_1.png)
+![back of E --> J](img/back_1.png)
+
+### 3. Listening
+
+Front:
+
+![front of E --> J](img/EJ_front.png)
+
+For this card, you need to listen to a recording of a Japanese vocab word then both recognize the word and its meaning. Thus, the card is pretty simple: just an audio button.
+
+_Note: if you'd like this card to autoplay but have the autoplay issue described above, you can move all your listening cards to a separate deck and set that deck to automatically play audio. This is not an elegant solution, it hardly needs to be said, but it's what I've managed to make work_
+
+Back:
+
+![back of Listening](img/back_3.png)
+
+This back should be pretty familiar now--all the information from before--but there is one wrinkle. Because of how Anki handles audio, as well as the need for listening cards to autoplay, the back of the card will only ever display the first sentence associated with the card's note. Imperfect? Yes. But it's functional.
