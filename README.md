@@ -91,3 +91,31 @@ It looks almost like a TV show with subtitles and translations underneath, with 
 If you don't have an image, the back of the card looks like this:
 
 ![back of Listening (Sentence)](img/back_sent_2.png)
+
+### 5. Sentence
+
+The final major kind of card. This one asks you to read a sentence, then displays the translation on the back.
+
+Front:
+
+![font of sentence card](img/sent_front.png)
+
+It displays the sentence, nothing more.
+
+Back:
+
+![back of Sentence](img/back_sent_2.png)
+
+This back is exactly the same as the listening back: A translation, definition, tags.
+
+If you have an image on your card, it will display big too, like so:
+
+Front:
+
+![font of sentence card](img/sent_img.png)
+
+Back:
+
+![back of Sentence](img/back_sent.png)
+
+Notice again how similar so many of these cards are: the goal is to make everything look almost identical, so that the focus of the cards is the vocabulary or sentence being studied, not the cards themselves. You are simply studying one small part of each note.
