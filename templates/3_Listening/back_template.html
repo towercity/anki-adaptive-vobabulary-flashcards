@@ -1,0 +1,50 @@
+<br>
+<br>
+<div id="sub2srs_img">{{Vocabulary-Image}}</img>
+{{FrontSide}}
+
+{{#Vocabulary-Reading}}
+  {{furigana:Vocabulary-Reading}}
+{{/Vocabulary-Reading}}
+{{^Vocabulary-Reading}}
+  {{text:furigana:Vocabulary}}
+  {{/Vocabulary-Reading}}
+
+  <div class="tags">{{Tags}}</div>
+  <div class="clear-both"></div>
+</div>
+
+
+<div id="usage">
+
+<span class="tab-small">↳</span>
+{{text:furigana:Meaning}}
+
+
+
+<div id=sentences>
+  {{#Sentence-1}}
+    <div class="ex-sentence" id="sent1">
+      <hr>
+      <div class="small-img">{{Image}}</div>
+
+      <span class="play" id=sent-aud-1>{{Sentence-1-Audio}}</span>
+      {{furigana:Sentence-1-Reading}}
+      {{#Sentence-1-Meaning}}
+        <br>
+        <span class="tab">↳ {{Sentence-1-Meaning}}</span>
+      {{/Sentence-1-Meaning}}
+      <div class="clear-both"></div>
+    </div>
+  {{/Sentence-1}}
+</div>
+
+
+<div class="tags">
+  {{Notes}}
+  {{#Pos}}
+    <div class=wordtype>--〔{{Pos}}〕</div>
+  {{/Pos}}
+</div>
+<div class="clear-both"></div>
+</div>
