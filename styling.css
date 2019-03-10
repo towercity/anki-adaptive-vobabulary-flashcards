@@ -1,0 +1,185 @@
+body{
+	background-color: #ddd;
+}
+
+#front{
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.card {
+  font-family: "meiryo";
+  padding: .2em;
+	width: 100%;
+  max-width: 780px;
+  margin: 25px auto;
+  font-size: 20px;
+  background-color: #666;
+}
+
+.mobile .card {
+	max-width: 100%;
+	margin: 25px 0;
+}
+
+#sub2srs_img img {
+  display: block;
+  margin: -35px auto 0 auto;
+  width: 90%;
+  max-width: 780px;
+}
+
+.mobile #sub2srs_img img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.small-img {
+	width: 33%;
+	float:right;
+	padding:0 5px;
+}
+
+.equiv {
+  margin-left: 1em;
+  font-style: italic;
+}
+
+#usage_header, #usage {
+  margin: auto;
+}
+
+#usage_header {
+  width: calc(90% - 20px);
+  max-width: 760px;
+  background-color: #888;
+  margin-bottom: 0;
+  padding: .5em 10px;
+  min-height: 30px;
+}
+
+#usage {
+  margin-top: 0;
+  margin-bottom: 1em;
+  border-left: 4px solid #888;
+  padding: 15px 10px;
+  width: calc(90% - 24px);
+  max-width: 756px;
+  background-color: #ddd;
+}
+
+#usage_header .mobile.
+#usage .mobile {
+	width: 100%;
+}
+
+#page,
+.tags {
+  float: right;
+  font-size: 70%;
+  max-width: 33%
+}
+
+#main_concept {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+hr {
+  color: blue;
+}
+
+#notes {
+  margin-top: 1em;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: none;
+}
+
+table td {
+  padding: 8px;
+  font-size: 11pt;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr.head {
+  border-bottom: 1px solid #888 !important;
+  background-color: #888;
+}
+
+.cloze, .concept {
+  color: #888;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#cloze_reveal .cloze {
+  font-weight: bold;
+}
+
+#formation_header {
+  padding: 7px;
+  margin-left: .2em;
+  border: none !important !;
+  font-family: Verdana, sans-serif;
+  font-size: 95%;
+  font-weight: bold;
+}
+
+.example_en {
+  margin-left: 3em;
+  margin-bottom: 7px;
+}
+
+.example_en a {
+  text-decoration: none;
+}
+
+.hint {
+  color: #ccc;
+}
+
+.subtitle-wrap {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	max-width: 585px;
+	position: relative;
+	height: 0;
+	bottom: 110px;
+}
+
+.subtitle{
+	color: white;
+	background: black;
+	display: inline;
+	text-align: center;
+	line-height: 1.5em
+}
+
+.subtitle-furigana {
+	background: black;
+	padding-top: 0.75em;
+	line-height: 2.25em
+}
+
+.clear-both {
+	clear:both;
+}
+
+.tab {
+	padding-left: 35px;
+}
+
+.tab-small {
+	padding-left: 12px;
+}
