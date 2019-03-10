@@ -19,11 +19,13 @@ _Note: because I've been using Anki to study Japanese from English, all examples
 ### 1. Japanese --> English
 
 Front:
+
 ![front of J --> E](img/JE_front.png)
 
 The front of this card displays the vocab word in Japanese, as well as any tags you have on the card. The card above, for example, has the vocab word 中間. Many of the tags I use here are sources for the information on the card.
 
 Back:
+
 ![back of J --> E](img/back_1.png)
 
 The back of the card adds furigana for the Japanese vocab word, as well as audio and an English translation. Below this is an example sentence, along with (optional) audio, English translation, and reference picture (for example, something you might find on a subs2srs card). Finally, any notes or part of speech information you have is displayed at the very bottom.
@@ -35,3 +37,15 @@ Most interestingly though (and most useful), if you have multiple sentences save
 Everything's the same except the sentence.
 
 _Note: because of how Anki processes audio on cards, if you have multiple audio files associated with your sentences on a note, you_ must _turn autoplay off on your cards, otherwise Anki will play every audio file for every sentence in order. As far as I know, this cannot be fixed, but if anyone knows how, please let me know._
+
+### 2. English --> Japanese
+
+Front:
+
+![front of E --> J](img/EJ_front.png)
+
+Pretty straightforwardly, this card shows an English word and asks you to guess the Japanese translation. As before, the back will display a randomly chosen sentence. In fact, the back will be exactly the same:
+
+Back:
+
+![back of J --> E](img/back_1.png)
