@@ -54,7 +54,7 @@ Back:
 
 Front:
 
-![front of E --> J](img/EJ_front.png)
+![front of listening](img/listening.png)
 
 For this card, you need to listen to a recording of a Japanese vocab word then both recognize the word and its meaning. Thus, the card is pretty simple: just an audio button.
 
@@ -65,3 +65,7 @@ Back:
 ![back of Listening](img/back_3.png)
 
 This back should be pretty familiar now--all the information from before--but there is one wrinkle. Because of how Anki handles audio, as well as the need for listening cards to autoplay, the back of the card will only ever display the first sentence associated with the card's note. Imperfect? Yes. But it's functional.
+
+### 4. Listening (Sentence)
+
+Front:
