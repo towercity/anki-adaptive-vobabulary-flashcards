@@ -1,2 +1,3 @@
-# anki-adaptive-vobabulary-flashcards
-A vocabulary flashcard template for Anki that can be used for a variety of study methods
+# Adaptive Vobabulary Flashcards for Anki 2.0+
+
+A useful vocabulary flashcard template for Anki that creates cards for variety of study methods. 
