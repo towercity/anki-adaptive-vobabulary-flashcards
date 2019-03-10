@@ -1,0 +1,110 @@
+<div id="cons"></div>
+
+<br>
+<br>
+<div id="sub2srs_img">{{Vocabulary-Image}}</div>
+<div id="usage_header">
+  <span class="play">{{Vocabulary-Audio}}</span>
+
+  {{#Vocabulary-Reading}}
+    {{furigana:Vocabulary-Reading}}
+  {{/Vocabulary-Reading}}
+  {{^Vocabulary-Reading}}
+    {{text:furigana:Vocabulary}}
+    {{/Vocabulary-Reading}}
+
+    <div class="tags">{{Tags}}</div>
+    <div class="clear-both"></div>
+</div>
+
+
+<div id="usage">
+
+  <span class="tab-small">↳</span>
+  {{text:furigana:Meaning}}
+
+
+
+  <div id=sentences>
+    {{#Sentence-1}}
+      <div class="ex-sentence" id="sent1">
+        <hr>
+        <div class="small-img">{{Image}}</div>
+
+        <span class="play" id=sent-aud-1>{{Sentence-1-Audio}}</span>
+        {{furigana:Sentence-1-Reading}}
+        {{#Sentence-1-Meaning}}
+          <br>
+          <span class="tab">↳ {{Sentence-1-Meaning}}</span>
+        {{/Sentence-1-Meaning}}
+        <div class="clear-both"></div>
+      </div>
+    {{/Sentence-1}}
+
+    {{#Sentence-2}}
+      <div class="ex-sentence" id="sent2">
+        <hr>
+        <br>
+
+        <div class="small-img">{{Image-2}}</div>
+
+        <span class="play" id="sent-aud-2">{{Sentence-2-Audio}}</span>
+        {{furigana:Sentence-2-Reading}}
+        {{#Sentence-2-Meaning}}
+          <br>
+          <span class="tab">↳ {{Sentence-2-Meaning}}</span>
+        {{/Sentence-2-Meaning}}
+
+        <div class="clear-both"></div>
+      </div>
+    {{/Sentence-2}}
+
+    {{#Sentence-3}}
+      <div class="ex-sentence" id="sent3">
+        <hr>
+        <br>
+
+        <div class="small-img">{{Image-3}}</div>
+
+        <span class="play" id="sent-aud-3">{{Sentence-3-Audio}}</span>
+        {{furigana:Sentence-3-Reading}}
+        {{#Sentence-3-Meaning}}
+          <br>
+          <span class="tab">↳ {{Sentence-3-Meaning}}</span>
+        {{/Sentence-3-Meaning}}
+
+        <div class="clear-both"></div>
+      </div>
+    {{/Sentence-3}}
+  </div>
+
+
+  <div class="tags">
+    {{Notes}}
+    {{#Pos}}
+      <div class=wordtype>--〔{{Pos}}〕</div>
+    {{/Pos}}
+  </div>
+  <div class="clear-both"></div>
+</div>
+
+
+
+
+<script>
+  var sentences = document.getElementById("sentences").children;
+  var exFields = sentences.length;
+  var exChoice = Math.floor(exFields * Math.random()) + 1;
+
+  for (var i = 1; i <= exFields; i++) {
+    if (exChoice != i) {
+      var divid = "sent" + i;
+      var div = document.getElementById(divid);
+      div.remove();
+    }
+  };
+
+ var cons = document.getElementById("cons");
+ //cons.innerText = 'type console text here';
+ 
+</script>
