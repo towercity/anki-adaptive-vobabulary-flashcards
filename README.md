@@ -119,3 +119,7 @@ Back:
 ![back of Sentence](img/back_sent.png)
 
 Notice again how similar so many of these cards are: the goal is to make everything look almost identical, so that the focus of the cards is the vocabulary or sentence being studied, not the cards themselves. You are simply studying one small part of each note.
+
+### The rest of the cards
+
+From here on out, all the cards are just versions of cards 4 and 5, but with new sentences. If you like to have a lot of practice sentences for each Japanese vocab word you're learning (like me), this is very useful. You can throw in as many practice sentences as you'd like, and you'll always have a record of what word you're trying to learn through it.
